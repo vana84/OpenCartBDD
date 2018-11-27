@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Performing_a_login_in_Opencart" timestamp="2018-11-27T10:40:34" time="15.904" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="50539fde80fde3cbd6c7c1a3fd56b628"/>
+      <property name="suiteName" value="Performing a login in Opencart"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\features\login.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Performing_login_with_passing_test_data_as_data_table" timestamp="2018-11-27T10:40:35" time="15.563" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="50539fde80fde3cbd6c7c1a3fd56b628"/>
+      <property name="suiteName" value="Performing login with passing test data as data table"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\features\login.feature"/>
+    </properties>
+    <testcase classname="chrome.Performing_login_with_passing_test_data_as_data_table" name="I_am_on_the_OpenCart_page" time="16.537"/>
+    <testcase classname="chrome.Performing_login_with_passing_test_data_as_data_table" name="Login_using_invalid_values_of_vana_gmail_com_stone01_into_the_text_box" time="7.771"/>
+    <testcase classname="chrome.Performing_login_with_passing_test_data_as_data_table" name="Verify_Error_message" time="1.3"/>
+  </testsuite>
+</testsuites>

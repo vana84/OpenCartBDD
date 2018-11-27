@@ -1,0 +1,226 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543295435017' stop='1543295450580'>
+    <name>Performing a login in Opencart Performing login with passing test data as data table</name>
+    <title>Performing a login in Opencart Performing login with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1543295435048' status='passed' stop='1543295443819'>
+            <name>I am on the OpenCart page</name>
+            <title>I am on the OpenCart page</title>
+            <labels>
+                <label name='feature' value='Performing a login in Opencart'/>
+                <label name='story' value='Performing login with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Saravanan\\Documents\\GitHub\\OpenCartBDD\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543295435064' status='passed' stop='1543295436237'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/window/current/maximize</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='fa835256-5b86-434a-8448-23cfc4b750a1-attachment.json' type='application/json' size='173'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295436252' status='passed' stop='1543295442734'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/url</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f6b1c3a5-2229-499d-bd2e-ea9c1a119f7f-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='1180e4d6-4f7f-4552-b714-74a081e8d20e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295443763' status='passed' stop='1543295443800'>
+                    <name>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/title</name>
+                    <title>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/title</title>
+                    <attachments>
+                        <attachment title='Response' source='24dfaf15-bddf-4db7-ad7c-094da6af87fb-attachment.json' type='application/json' size='134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543295443820' status='passed' stop='1543295450290'>
+            <name>Login using invalid values of "vana@gmail.com" "stone01" into the text box</name>
+            <title>Login using invalid values of "vana@gmail.com" "stone01" into the text box</title>
+            <labels>
+                <label name='feature' value='Performing a login in Opencart'/>
+                <label name='story' value='Performing login with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Saravanan\\Documents\\GitHub\\OpenCartBDD\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543295443830' status='passed' stop='1543295443943'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4bb912e4-67da-466a-a91d-6aef9f8a9a2d-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='2ce45cd8-e592-40bc-b493-218008479fe8-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295443957' status='passed' stop='1543295444094'>
+                    <name>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.0556743342626167-1/displayed</name>
+                    <title>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.0556743342626167-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='e9ec5b6e-c2c3-494a-b7dd-9319c903b2d0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295444095' status='passed' stop='1543295444429'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='39b8b4db-f4e0-48e3-b6ad-23678370e23c-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='fb673ef5-8d02-4ab6-b5ac-2b76c3cb67f1-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295444600' status='passed' stop='1543295447071'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.0556743342626167-1/click</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.0556743342626167-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='db4ab1cb-07cb-4a3d-85d4-18ab76dff827-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295447085' status='passed' stop='1543295447181'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='27c85e31-22c9-443b-8c5f-e47f493df318-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='6813dea8-5389-4b88-807c-60e6b15988c4-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295447185' status='passed' stop='1543295447392'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-1/clear</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='51b6cddb-e4eb-4e6f-a317-c5bc5bd70142-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295447393' status='passed' stop='1543295447664'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-1/value</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='26780bca-4bb0-4ebd-8062-6ade67f51586-attachment.json' type='application/json' size='235'/>
+                        <attachment title='Response' source='7005148b-0fdc-4d4a-844a-3625485be8a7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295447674' status='passed' stop='1543295447761'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='085679ef-a90f-4834-adde-04ef1328d2cb-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='fe550c24-503d-410e-989c-f6545bd08683-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295447776' status='passed' stop='1543295448074'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/click</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='562a3fbe-248f-4056-bbad-0a3fbdf6429e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295448087' status='passed' stop='1543295448132'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='902a936a-cb0b-41d5-850a-6e51bd0aace2-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='dbe72d08-5ce0-4513-a16a-efc57bb48924-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295448149' status='passed' stop='1543295448285'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/clear</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='334b8718-0209-4943-bb36-f110151d3b37-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295448288' status='passed' stop='1543295448574'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/value</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='44b6ca38-0326-42b6-aebe-fa9afb7d4c92-attachment.json' type='application/json' size='137'/>
+                        <attachment title='Response' source='61250d82-f692-4474-8bb3-ab5273e6a3af-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295448583' status='passed' stop='1543295448680'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e7eff8b4-c33f-4b42-ba86-ad9e941ca073-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e7667c83-51b3-4626-aabb-a2d6f411c9b5-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295448683' status='passed' stop='1543295450280'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-3/click</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.18719701274241718-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='e5d30f52-2b2b-4d5d-a167-67158f863e55-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543295450291' status='passed' stop='1543295450580'>
+            <name>Verify Error message</name>
+            <title>Verify Error message</title>
+            <labels>
+                <label name='feature' value='Performing a login in Opencart'/>
+                <label name='story' value='Performing login with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Saravanan\\Documents\\GitHub\\OpenCartBDD\\test\\features\\login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1543295450298' status='passed' stop='1543295450447'>
+                    <name>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</name>
+                    <title>POST /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba69bf9f-8440-4e77-8873-2d24acc52ec6-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='15106962-7782-45fc-b81f-e67916b9218b-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1543295450447' status='passed' stop='1543295450575'>
+                    <name>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.22849669031008513-1/text</name>
+                    <title>GET /wd/hub/session/64d5fd06eb7c1df674a3c570cd70ebaa/element/0.22849669031008513-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4c446ce8-8ae7-46c2-9705-410b8aa0b8be-attachment.json' type='application/json' size='179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

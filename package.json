@@ -1,0 +1,40 @@
+{
+  "name": "opencartbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio test/config/suite.cucumber.conf.js",
+    "allure-report": "allure generate test/reports/allure-results --clean -o ./target/allure-report"
+  },
+  "author": "vana",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.14.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "allure-commandline": "^2.8.1"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^2.2.8",
+    "chai": "^4.2.0",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-selenium-standalone-service": "~0.0.11",
+    "wdio-json-reporter": "^0.1.1",
+    "wdio-junit-reporter": "^0.4.2",
+    "wdio-spec-reporter": "^0.1.4"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
